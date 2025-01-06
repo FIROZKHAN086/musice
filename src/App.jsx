@@ -58,7 +58,7 @@ const App = () => {
             <div className="mt-4 grid gap-6  md:grid-cols-2 lg:grid-cols-3">
                 {track.map((elem, index) => {
                     return (
-                        <div key={index} className="bg-white shadow-md rounded overflow-hidden">
+                        <div key={index} className="bg-white  rounded shadow-xl shadow-black overflow-hidden">
                             <img 
                                 src={elem.album.images[0].url} 
                                 alt={elem.album.name} 
@@ -72,7 +72,7 @@ const App = () => {
                                     src={elem.preview_url} 
                                     onPlay={(e) => handlePlay(e.target)}
                                     controls 
-                                    className="w-full mt-2 bg-black px-3 py-2 rounded-lg"
+                                    className="w-full mt-2 shadow-lg shadow-black px-3 py-2 rounded-lg"
                                 ></audio>
                             </div>
                         </div>
