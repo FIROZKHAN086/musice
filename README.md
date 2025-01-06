@@ -14,3 +14,6 @@ This project is a music search application built with React and Vite. It allows 
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/your-repo-name.git
+
+   ## Visit on
+   https://musice-my.vercel.app/
