@@ -1,8 +1,16 @@
-# React + Vite
+# React + Vite Music App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a music search application built with React and Vite. It allows users to search for songs and play previews using the Spotify API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for songs by name
+- Display song details including album art, album name, and artist name
+- Play song previews
+- Responsive design
+
+## Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
