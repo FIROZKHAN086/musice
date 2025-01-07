@@ -8,6 +8,7 @@ const App = () => {
   const audioRef = useRef(null);
 
     const getTrack = async () => {
+        alert("NOW API DOES NOT WORK I Fix It")
         setIsLoding(true)
         const data = await fetch(`https://v1.nocodeapi.com/firozkhan/spotify/qWRohdTKlJPOMwps/search?q=${search === ""?"Trending":search }&type=track`);
         const convert = await data.json();
